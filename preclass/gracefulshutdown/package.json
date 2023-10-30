@@ -1,0 +1,17 @@
+{
+  "name": "poc-100ms-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "npx nodemon src/index.js",
+    "curl": "curl -X POST --data '{\"nome\": \"matheusalpe332\"}' localhost:4000"
+  },
+  "keywords": [],
+  "author": "matheus-alpe",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
